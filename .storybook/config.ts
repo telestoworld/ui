@@ -13,9 +13,9 @@ addParameters({
   options: {
     theme: create({
       base: 'light',
-      brandTitle: 'UI | Decentraland',
-      brandUrl: 'https://decentraland.org',
-      brandImage: 'https://ui.decentraland.org/color_dark_text.png'
+      brandTitle: 'UI | telestoworld',
+      brandUrl: 'https://telesto.world',
+      brandImage: 'https://ui.telesto.world/color_dark_text.png'
     })
   }
 })

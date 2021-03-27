@@ -1,30 +1,30 @@
-<img src="https://ui.decentraland.org/decentraland_256x256.png" height="128" width="128" />
+<img src="https://ui.telesto.world/telestoworld_256x256.png" height="128" width="128" />
 
-# Decentraland UI [![CircleCI](https://circleci.com/gh/decentraland/ui.svg?style=svg)](https://circleci.com/gh/decentraland/ui) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+# telestoworld UI [![CircleCI](https://circleci.com/gh/telestoworld/ui.svg?style=svg)](https://circleci.com/gh/telestoworld/ui) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-This is basically `semantic-ui-react` themed with Decentrland's look & feel + some of our own components
+This is basically `semantic-ui-react` themed with Telesto World's look & feel + some bonus components
 
-See: [ui.decentraland.org](https://ui.decentraland.org)
+See: [ui.telesto.world](https://ui.telesto.world)
 
 ## Usage
 
 Install it:
 
 ```bash
-npm install --save decentraland-ui
+npm install --save telestoworld-ui
 ```
 
-Import Decentraland UI's styles in your App's entry point
+Import telestoworld UI's styles in your App's entry point
 
 ```jsx
-import 'decentraland-ui/lib/styles.css'
+import 'telestoworld-ui/lib/styles.css'
 ```
 
-Now you can use Decentraland UI's components
+Now you can use telestoworld UI's components
 
 ```jsx
 import React from 'react'
-import { Button } from 'decentraland-ui'
+import { Button } from 'telestoworld-ui'
 
 export class MyApp extends React.Component {
   render() {
@@ -35,10 +35,10 @@ export class MyApp extends React.Component {
 
 ### Without React
 
-You can also use `decentraland-ui` as a CSS framework just by adding this tag in your `<head>`:
+You can also use `telestoworld-ui` as a CSS framework just by adding this tag in your `<head>`:
 
 ```html
-<link href="https://ui.decentraland.org/styles.css" rel="stylesheet" />
+<link href="https://ui.telesto.world/styles.css" rel="stylesheet" />
 ```
 
 And then using [Semantic UI](https://semantic-ui.com/) classes like this:
@@ -51,11 +51,11 @@ And then using [Semantic UI](https://semantic-ui.com/) classes like this:
 
 ## Alternative themes
 
-You can use one of our alternative themes by importing in after Decentraland UI's styles, like this:
+You can use one of our alternative themes by importing in after telestoworld UI's styles, like this:
 
 ```jsx
-import 'decentraland-ui/lib/styles.css'
-import 'decentraland-ui/lib/dark-theme.css'
+import 'telestoworld-ui/lib/styles.css'
+import 'telestoworld-ui/lib/dark-theme.css'
 ```
 
 Or you can create your own theme like this:
@@ -123,4 +123,4 @@ $ npm start
 
 ## CI/CD
 
-We deploy automatically to [ui.decentraland.org](https://ui.decentraland.org) and release a new version via `semantic-release`
+We deploy automatically to [ui.telesto.world](https://ui.telesto.world) and release a new version via `semantic-release`

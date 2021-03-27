@@ -14,7 +14,7 @@ export type ProfileProps = {
   hasPopup?: boolean
   inline?: boolean
   size?: 'normal' | 'large' | 'huge' | 'massive'
-  isDecentraland?: boolean
+  istelestoworld?: boolean
 }
 
 export class Profile extends React.PureComponent<ProfileProps> {
@@ -32,18 +32,18 @@ export class Profile extends React.PureComponent<ProfileProps> {
       hasPopup,
       inline,
       size,
-      isDecentraland
+      istelestoworld
     } = this.props
     const name = (avatar && avatar.name) || address.slice(0, 6)
 
-    if (isDecentraland) {
+    if (istelestoworld) {
       return (
         <span
-          className={`Profile decentraland ${size} ${inline ? 'inline' : ''}`}
+          className={`Profile telestoworld ${size} ${inline ? 'inline' : ''}`}
           title={address}
         >
           <Logo />
-          {imageOnly ? null : <span className="name">Decentraland</span>}
+          {imageOnly ? null : <span className="name">telestoworld</span>}
         </span>
       )
     }

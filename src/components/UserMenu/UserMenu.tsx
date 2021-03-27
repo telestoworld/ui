@@ -1,4 +1,4 @@
-import { Network } from '@dcl/schemas'
+import { Network } from '@tcl/schemas'
 import * as React from 'react'
 import { Avatar } from '../../types/avatar'
 import Menu from 'semantic-ui-react/dist/commonjs/collections/Menu'

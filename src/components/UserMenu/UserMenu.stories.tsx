@@ -1,4 +1,4 @@
-import { Network } from '@dcl/schemas'
+import { Network } from '@tcl/schemas'
 import * as React from 'react'
 import { MenuItem, Icon } from 'semantic-ui-react'
 import { storiesOf } from '@storybook/react'
@@ -18,9 +18,9 @@ const avatar: Avatar = {
     bodyShape: 'dcl://base-avatars/BaseMale',
     snapshots: {
       face:
-        'https://peer.decentraland.org/content/contents/QmaV5H69RMcm49proWHTpMHRForP5FoVFt31PcDHUYkK4J',
+        'https://peer.telesto.world/content/contents/QmaV5H69RMcm49proWHTpMHRForP5FoVFt31PcDHUYkK4J',
       body:
-        'https://peer.decentraland.org/content/contents/QmYyprchWpLTicofp16rKzQadmDLu4epmbxfji6LH9xHzp'
+        'https://peer.telesto.world/content/contents/QmYyprchWpLTicofp16rKzQadmDLu4epmbxfji6LH9xHzp'
     },
     eyes: {
       color: { r: 0.37109375, g: 0.22265625, b: 0.1953125, a: 1 }

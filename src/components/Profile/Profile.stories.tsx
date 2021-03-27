@@ -17,9 +17,9 @@ const avatar: Avatar = {
     bodyShape: 'dcl://base-avatars/BaseMale',
     snapshots: {
       face:
-        'https://peer.decentraland.org/content/contents/QmQtAtwR4DyrCiP7tHpdUiJXbNKmUJo2JrbMhHkwNZjs3y',
+        'https://peer.telesto.world/content/contents/QmQtAtwR4DyrCiP7tHpdUiJXbNKmUJo2JrbMhHkwNZjs3y',
       body:
-        'https://peer.decentraland.org/content/contents/QmYchnHPEdeeNWnUJik6hKV3vELtzUrfK5QvUhgywoUpFG'
+        'https://peer.telesto.world/content/contents/QmYchnHPEdeeNWnUJik6hKV3vELtzUrfK5QvUhgywoUpFG'
     },
     eyes: {
       color: { r: 0.37109375, g: 0.22265625, b: 0.1953125, a: 1 }
@@ -124,10 +124,10 @@ storiesOf('Profile', module)
       <Profile address="0xdeadbeef" avatar={avatar} inline />
     </>
   ))
-  .add('Decentraland', () => (
+  .add('telestoworld', () => (
     <>
       You sent <Mana inline>1,000</Mana> to{' '}
-      <Profile address="0xdeadbeef" avatar={avatar} inline isDecentraland />
+      <Profile address="0xdeadbeef" avatar={avatar} inline istelestoworld />
     </>
   ))
   .add('Sizes', () => (
@@ -166,7 +166,7 @@ storiesOf('Profile', module)
         inline={false}
         size="normal"
         imageOnly
-        isDecentraland
+        istelestoworld
       />
       <Profile
         address="0xdeadbeef"
@@ -174,7 +174,7 @@ storiesOf('Profile', module)
         inline={false}
         size="large"
         imageOnly
-        isDecentraland
+        istelestoworld
       />
       <Profile
         address="0xdeadbeef"
@@ -182,7 +182,7 @@ storiesOf('Profile', module)
         inline={false}
         size="huge"
         imageOnly
-        isDecentraland
+        istelestoworld
       />
       <Profile
         address="0xdeadbeef"
@@ -190,7 +190,7 @@ storiesOf('Profile', module)
         inline={false}
         size="massive"
         imageOnly
-        isDecentraland
+        istelestoworld
       />
       <Profile address="0xdeadbeef" inline={false} size="normal" imageOnly />
       <Profile address="0xdeadbeef" inline={false} size="large" imageOnly />

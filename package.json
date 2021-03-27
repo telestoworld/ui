@@ -1,7 +1,7 @@
 {
-  "name": "decentraland-ui",
+  "name": "telestoworld-ui",
   "version": "0.0.0-development",
-  "description": "Decentraland's UI components and styles",
+  "description": "telestoworld's UI components and styles",
   "main": "lib/index.js",
   "module": "dist/index.js",
   "typings": "lib/index.d.ts",
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/decentraland/ui.git"
+    "url": "https://github.com/telestoworld/ui.git"
   },
   "keywords": [
-    "decentraland",
+    "telestoworld",
     "ui",
     "react",
     "semantic-ui",
@@ -28,12 +28,12 @@
     "styles",
     "themes"
   ],
-  "author": "Decentraland",
+  "author": "telestoworld",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/decentraland/ui/issues"
+    "url": "https://github.com/telestoworld/ui/issues"
   },
-  "homepage": "https://github.com/decentraland/ui#readme",
+  "homepage": "https://github.com/telestoworld/ui#readme",
   "devDependencies": {
     "@storybook/addon-centered": "^5.3.13",
     "@storybook/addon-storysource": "^5.3.13",
@@ -65,7 +65,7 @@
     "webpack-cli": "^3.3.2"
   },
   "dependencies": {
-    "@dcl/schemas": "^0.2.0",
+    "@tcl/schemas": "^0.2.0",
     "balloon-css": "^0.5.0",
     "ethereum-blockies": "^0.1.1",
     "parallax-js": "^3.1.0",

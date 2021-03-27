@@ -77,11 +77,11 @@ export class Footer extends React.PureComponent<FooterProps> {
             i18n={i18n.dropdown}
           />
           <div className="links">
-            <a href="https://decentraland.org">{i18n.links.home}</a>
-            <a href="https://decentraland.org/privacy">{i18n.links.privacy}</a>
-            <a href="https://decentraland.org/terms">{i18n.links.terms}</a>
-            <a href="https://decentraland.org/content">{i18n.links.content}</a>
-            <a href="https://decentraland.org/ethics">{i18n.links.ethics}</a>
+            <a href="https://telesto.world">{i18n.links.home}</a>
+            <a href="https://telesto.world/privacy">{i18n.links.privacy}</a>
+            <a href="https://telesto.world/terms">{i18n.links.terms}</a>
+            <a href="https://telesto.world/content">{i18n.links.content}</a>
+            <a href="https://telesto.world/ethics">{i18n.links.ethics}</a>
           </div>
         </div>
         <div className="secondary-footer">
@@ -89,18 +89,18 @@ export class Footer extends React.PureComponent<FooterProps> {
             <a href="https://dcl.gg/discord">
               <i className="social-icon discord" />
             </a>
-            <a href="https://reddit.com/r/decentraland">
+            <a href="https://reddit.com/r/telestoworld">
               <i className="social-icon reddit" />
             </a>
-            <a href="https://github.com/decentraland">
+            <a href="https://github.com/telestoworld">
               <i className="social-icon github" />
             </a>
-            <a href="https://twitter.com/decentraland">
+            <a href="https://twitter.com/telestoworld">
               <i className="social-icon twitter" />
             </a>
           </div>
           <div className="copyright">
-            © {new Date().getFullYear()} Decentraland
+            © {new Date().getFullYear()} telestoworld
           </div>
         </div>
       </Container>

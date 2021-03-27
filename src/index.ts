@@ -26,7 +26,7 @@ import './components/Radio/Radio.css'
 import './components/Segment/Segment.css'
 import './components/Table/Table.css'
 
-// Decentraland components
+// telestoworld components
 export * from './components/Address/Address'
 export * from './components/Atlas/Atlas'
 export * from './components/AvatarFace/AvatarFace'

@@ -74,7 +74,7 @@ export class Atlas extends React.PureComponent<AtlasProps, AtlasState> {
     }
   }
 
-  static TILES_URL = 'https://api.decentraland.org/v1/tiles'
+  static TILES_URL = 'https://api.telesto.world/v1/tiles'
 
   static fetchTiles = async (url: string = Atlas.TILES_URL) => {
     if (!window.fetch) return {}
